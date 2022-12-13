@@ -13,47 +13,53 @@
   <body>
     <!--Top Line-->
     <header class="header">
-      <div class="wrapper">
-      <div class="header-wrapper">
-      <div class="header-logo">
-        <a href="/" class="logo"><span>Web</span>Studio</a>
-      </div>
-      <nav class="header-nav">
-        <ul class="header-list">
+      <div class="conteiner">
+        <nav class="header-nav">
+          <div class="header-logo">
+            <a href="index.html" class="logo"><span class="web">Web</span>Studio</a>
+          </div>
+         <ul class="header-list">
           <li class="header-item"><a href="./index.html" class="link-current">Studio</a></li>
           <li class="header-item"><a href="./portfolio.html" class="link">Portfolio</a></li>
           <li class="header-item"><a href="/" class="link">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li>
-          <a href="tel:+110001111111" class="contact-link"
-            >+11 (000) 111-11-11</a>
+      <ul class="connection">
+        <li class="connection-item">
+          <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+        <li class="connection-item">
+          <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
         </li>
       </ul>
-      </div>
-    </div>
+     </div>
     </header>
     <main>
       <!--Section-hero-->
-      <section class="hero" >
-        <h1 class="hero-title">Effective Solutions<br>Your Business</h1>
+      <section class="hero">
+        <div class="hero hero-conteiner">
+           <h1 class="hero-title">Effective Solutions <br> 
+                               for Your Business</h1>                
         <button type="button" class="button">Order Service</button>
+      </div>
       </section>
+    
       <!--Section-Policy-->
-      <section class="section">
+      <section class="section-policy">
+      <div class="policy-conteiner">
         <h2 class="section-title">Policy</h2>
-        <ul class="policy-list">
-          <li>
+         <ul class="policy-list">
+          <li class="item">
+            <article class="card">
             <h3 class="title">Strategy</h3>
             <p class="title-text">
               Our goal is to identify the business<br>
               problem to walk away with the<br>
               perfect and creative solution.
             </p>
+          </article>
           </li>
-          <li>
+          <li class="item">
+            <article class="card">
             <h3 class="title">Punctuality</h3>
             <p class="title-text">
               Bring the key message to the<br>
@@ -61,7 +67,9 @@
               within the shortest possible time.
             </p>
           </li>
-          <li>
+        </article>
+          <li class="item">
+            <article class="card">
             <h3 class="title">Diligence</h3>
             <p class="title-text">
               Research and confirm brands that<br>
@@ -69,7 +77,9 @@
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
+        </article>
+          <li class="item">
+            <article class="card">
             <h3 class="title">Technologies</h3>
             <p class="title-text">
               Design practice focused on digital<br>
@@ -77,13 +87,16 @@
               passion for problem-solving.
             </p>
           </li>
+        </article>
         </ul>
+      </div>
       </section>
-      <!--Section-doing-->
-      <section class="section">
+      <!--Section-imajes-->
+      <section class="section-doing">
+        <div class="doing-conteiner">
         <h2 class="section-title">What are we doing</h2>
         <ul class="img-list">
-          <li>
+          <li class="item-img">
             <img
               src="./imajes/gajets/tablet.jpg"
               width="360"
@@ -91,7 +104,7 @@
               alt="Tablet"
             >
           </li>
-          <li>
+          <li class="item-img">
             <img
               src="./imajes/gajets/smartphon.jpg"
               width="360"
@@ -99,7 +112,7 @@
               alt="Smartphon"
             >
           </li>
-          <li>
+          <li class="item-img">
             <img
               src="./imajes/gajets/laptop.jpg"
               width="360"
@@ -108,12 +121,14 @@
             >
           </li>
         </ul>
+      </div>
       </section>
       <!--Team-->
-      <section class="section">
+      <section class="section-team">
+        <div class="team-conteiner">
         <h2 class="section-title">Our Team</h2>
         <ul class="team-list">
-          <li>
+          <li class="team-item">
             <img
               src="./imajes/emploees/mark-guerello.jpg"
               width="264"
@@ -123,7 +138,7 @@
             <h3 class="team-title">Mark Guerrero</h3>
             <p class="title-text" >Product Designer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./imajes/emploees/tom-ford.jpg"
               width="264"
@@ -133,7 +148,7 @@
             <h3 class="team-title" >Tom Ford</h3>
             <p class="title-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./imajes/emploees/camila-garcia.jpg"
               width="264"
@@ -143,7 +158,7 @@
             <h3 class="team-title">Camila Garcia</h3>
             <p class="title-text">Marketing</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./imajes/emploees/daniel-wilson.jpg"
               width="264"
@@ -154,17 +169,20 @@
             <p class="title-text">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <footer class="footer">
-      <address>
+      <div class="footer-conteiner">
+       <div class="logo-conteiner">
         <a href="index.html" class="logo"><span class="web">Web</span>Studio</a>
+      </div>
         <p class="footer-text">
           Increase the flow of customers and<br>
           sales for your business with digital<br>
           marketing & growth solutions.
         </p>
-      </address>
+      </div>
     </footer>
   </body>
 </html>
